@@ -14,6 +14,24 @@ Reemplaza el proceso manual descrito en el diagnóstico original (cuaderno físi
 Excel + comunicación por WhatsApp entre mostrador y bodega), eliminando la
 desincronización de datos y los reprocesos de cuadre manual.
 
+## Capturas del sistema 
+![Dashboard](docs/capturas/dashboard.png)
+*Dashboard con resumen de inventario, alertas y últimos movimientos.*
+
+ ![Registrar movimiento](docs/capturas/movimiento.png)
+ *Registro de un movimiento con validación de stock antes de confirmar.*
+
+  ![Gestión de usuarios](docs/capturas/usuarios.png) 
+  *Módulo de usuarios, visible solo para el rol ADMIN.*
+
+   ![Gestión de errores](docs/capturas/vendedorerror.png) 
+  *Control de roles, visible solo para el rol con permisos.*
+
+   !Actualizacion del Dashboard](docs/capturas/DashboardActualizado.png) 
+  *Actualizaciones del dashboard en tiempo real con historial visible.*
+
+
+
 ## Arquitectura general
 
 ```
