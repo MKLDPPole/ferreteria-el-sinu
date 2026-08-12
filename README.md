@@ -123,6 +123,30 @@ Abrir `http://localhost:5173`. Usuarios de prueba:
 > siguientes son inmediatas. Esto es una limitación conocida del plan
 > gratuito, no un error del sistema.
 
+## Pruebas de la API (Postman)
+
+Se construyó una colección de Postman con 9 endpoints que cubren tanto los
+flujos exitosos como los casos de error controlado (credenciales inválidas,
+SKU duplicado, stock insuficiente, recurso inexistente), ejecutada contra el
+backend ya desplegado en Render.
+
+**Resultado de la corrida:** 6/6 tests automáticos pasados (100%), 0 errores,
+tiempo de respuesta promedio de 725 ms.
+
+![Resumen de la corrida en Postman](docs/capturas/postmanvistaresumen.png)
+*Resumen de la ejecución: 6 tests, 0 fallos, 0 errores, 725 ms de respuesta promedio.*
+
+![Detalle de pruebas Postman parte 1](docs/capturas/postmanpruebas.png)
+*Detalle de los endpoints 1 al 7, incluyendo los casos de error esperado (401, 400, 404).*
+
+![Detalle de pruebas Postman parte 2](docs/capturas/postmanpruebas1.png)
+*Detalle de los endpoints 7 al 9 y cierre de la corrida.*
+
+> **Nota:** el endpoint "Crear producto (SKU duplicado)" responde `422`
+> (error de validación) en lugar de `409` (conflicto); el nombre del request
+> en la colección quedó desactualizado respecto al código real, pero el
+> comportamiento de rechazo del duplicado es correcto.
+
 ## Retos, mejoras futuras y aprendizajes
 
 **Retos técnicos enfrentados:**
