@@ -1,0 +1,13 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Dependencias de Node / React
+node_modules/
+dist/
+.env
+
+# Archivos locales de base de datos
+*.db
