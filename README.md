@@ -15,19 +15,19 @@ Excel + comunicación por WhatsApp entre mostrador y bodega), eliminando la
 desincronización de datos y los reprocesos de cuadre manual.
 
 ## Capturas del sistema 
-![Dashboard](docs/capturas/dashboard.png)
+![Dashboard](docs/capturas/Dashboard.png)
 *Dashboard con resumen de inventario, alertas y últimos movimientos.*
 
- ![Registrar movimiento](docs/capturas/movimiento.png)
+ ![Registrar movimiento](docs/capturas/Movimientos.png)
  *Registro de un movimiento con validación de stock antes de confirmar.*
 
-  ![Gestión de usuarios](docs/capturas/usuarios.png) 
+  ![Gestión de usuarios](docs/capturas/Usuarios.png) 
   *Módulo de usuarios, visible solo para el rol ADMIN.*
 
-   ![Gestión de errores](docs/capturas/vendedorerror.png) 
+   ![Gestión de errores](docs/capturas/Vendedorerror.png) 
   *Control de roles, visible solo para el rol con permisos.*
 
-   !Actualizacion del Dashboard](docs/capturas/DashboardActualizado.png) 
+   ![Actualizacion del Dashboard](docs/capturas/DashboardActualizado.png) 
   *Actualizaciones del dashboard en tiempo real con historial visible.*
 
 
